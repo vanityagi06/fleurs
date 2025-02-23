@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occasions - Fleurs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background-color: rgb(114, 14, 48);
+            padding: 15px 0;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .box {
+            width: 80%;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .occasionbox {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .occasionbox img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .occasionbox h3 {
+            margin-top: 10px;
+            color: rgb(114, 14, 48);
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Occasions</header>
+
+    <div class="box">
+        <div class="occasionbox">
+            <img src="birthday.jpeg" alt="Birthday">
+            <h3>Birthday</h3>
+        </div>
+        <div class="occasionbox">
+            <img src="anniversary.jpeg" alt="Anniversary">
+            <h3>Anniversary</h3>
+        </div>
+        <div class="occasionbox">
+            <img src="wedding.jpeg" alt="Wedding">
+            <h3>Wedding</h3>
+        </div>
+        <div class="occasionbox">
+            <img src="valentine's.jpeg" alt="Valentine's Day">
+            <h3>Valentine's Day</h3>
+        </div>
+        <div class="occasionbox">
+            <img src="mother's day.jpeg" alt="Mother's Day">
+            <h3>Mother's Day</h3>
+        </div>
+        <div class="occasionbox">
+            <img src="sympathy.jpeg" alt="Sympathy">
+            <h3>Sympathy & Condolences</h3>
+        </div>
+    </div>
+
+</body>
+</html>
